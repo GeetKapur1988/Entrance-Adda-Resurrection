@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/Components/common/Navbar";
 import Footer from "@/Components/common/Footer";
-import GeetImage from "../assets/Geet.jpg";
+import GeetImage from "../Assets/Geet.jpg";
 import PuneetaImage from "../Assets/Puneeta.jpg";
 
 const About = () => {
