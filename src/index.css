@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app-background {
+  background-image: url('/src/assets/Blue_Texture.png'); /* Ensure path is accurate */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* optional: keeps texture in place */
+  
+  color: white;
+}
+.feature-card {
+  background-color: rgba(0, 0, 0, 0.5); /* dark glass effect */
+  border: 2px solid #FFD700; /* gold */
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+}
+/* Ensure full height layout for flex-based pages */
+html, body, #root {
+  height: 100%;
+}
+/* === DASHBOARD WRAPPER === */
+/* Dashboard Layout Styles */
+.dashboard-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+.dashboard-sidebar {
+  width: 280px;
+  background-color: #161b22;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 2px solid #21262d;
+}
+
+.dashboard-sidebar h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 5px;
+}
+
+.sidebar-btn {
+  padding: 12px 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-disabled {
+  background-color: #2f2f2f;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.logout-btn {
+  background-color: #dc2626;
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: #b91c1c;
+}
+
+.sidebar-card {
+  background-color: #1e293b;
+  padding: 12px;
+  border-radius: 5px;
+  color: #e2e8f0;
+  font-size: 14px;
+}
+
+/* Main Dashboard Area */
+.dashboard-main {
+  flex: 1;
+  padding: 40px;
+  background-color: #0d1117;
+}
+
+.dashboard-content h1 {
+  font-size: 24px;
+  color: white;
+}
+
+.dashboard-content p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
