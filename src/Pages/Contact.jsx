@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "@/components/common/Navbar";
-import Footer from "@/components/common/Footer"; // ✅ Corrected path
-import SubmitFeedback from "@/components/student/SubmitFeedback";
+import Navbar from "@/Components/common/Navbar";
+import Footer from "@/Components/common/Footer"; // ✅ Corrected path
+import SubmitFeedback from "@/Components/student/SubmitFeedback";
 const Contact = () => {
   return (
     <div className="app-background text-white min-h-screen flex flex-col">

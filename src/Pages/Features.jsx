@@ -1,9 +1,9 @@
 import React from 'react';
 import "../index.css";
-import Navbar from "../components/common/Navbar";
-import Footer from "@/components/common/Footer";
-import FeatureCard from '@/components/ui/FeatureCard';
-import bgImage from '../assets/Blue_Texture.png';
+import Navbar from "../Components/common/Navbar";
+import Footer from "@/Components/common/Footer";
+import FeatureCard from '@/Components/ui/FeatureCard';
+import bgImage from '../Assets/Blue_Texture.png';
 
 const featuresList = [
   {
