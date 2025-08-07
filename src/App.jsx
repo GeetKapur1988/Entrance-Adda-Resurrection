@@ -5,7 +5,7 @@ import Contact from './Pages/Contact';
 import Features from './Pages/Features';
 import Dashboard from './Pages/Dashboard';
 import Login from './Pages/Login';
-import Signup from './Pages/Signup';
+import Signup from './Pages/signup';
 import ProtectedRoute from "./Components/auth/ProtectedRoute";
 import ThankYou from "./Pages/ThankYouPage";
 import Results from "./Pages/Results";
