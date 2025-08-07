@@ -1,0 +1,11 @@
+question_number,subject,question,option_a,option_b,option_c,option_d,correct,year,set,difficulty,type,bonus_tip
+1,Physics,What is the SI unit of force?,Joule,Watt,Newton,Pascal,C,2015,Set A,Easy,,
+2,Physics,Which law explains the relationship between pressure and volume?,Boyle's Law,Newton's Law,Ohm's Law,Hooke's Law,A,2016,Set A,Medium,,
+3,Chemistry,What is the chemical symbol for Sodium?,So,S,Na,N,C,2017,Set A,Easy,,
+4,Biology,Which organ in the human body filters blood?,Lungs,Heart,Kidneys,Liver,C,2018,Set A,Easy,,
+5,Math,What is the derivative of sin(x)?,cos(x),#NAME?,#NAME?,tan(x),B,2019,Set A,Medium,,
+6,Biology,What is the powerhouse of the cell?,Nucleus,Mitochondria,Ribosome,Cytoplasm,B,2020,Set A,Easy,,
+7,Chemistry,Which gas is most abundant in Earth's atmosphere?,Oxygen,Nitrogen,Carbon Dioxide,Hydrogen,B,2021,Set A,Easy,,
+8,Astronomy,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,A,2022,Set A,Easy,,
+9,Physics,What is the acceleration due to gravity on Earth?,9.8 m/s²,8.9 m/s²,10.2 m/s²,9.2 m/s²,A,2023,Set A,Medium,,
+10,Physics,Who proposed the theory of relativity?,Newton,Einstein,Galileo,Copernicus,B,2024,Set A,Hard,,
