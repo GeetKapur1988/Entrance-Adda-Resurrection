@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { useUser } from '@supabase/auth-helpers-react';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/Components/ui/card';
 
 const PaymentSuccess = () => {
   const [params] = useSearchParams();

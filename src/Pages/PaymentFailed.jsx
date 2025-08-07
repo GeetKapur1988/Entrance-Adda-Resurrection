@@ -1,6 +1,6 @@
 // PaymentFailed.jsx
 import React from 'react';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/Components/ui/card';
 
 const PaymentFailed = () => (
   <div className="px-6 py-12 max-w-2xl mx-auto">

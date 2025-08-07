@@ -1,4 +1,4 @@
-// src/components/ui/card.jsx
+// src/Components/ui/card.jsx
 export const Card = ({ children }) => (
   <div className="rounded-lg border p-4 shadow">{children}</div>
 );
