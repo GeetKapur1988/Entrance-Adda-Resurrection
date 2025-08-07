@@ -1,7 +1,7 @@
 // PricingTable.jsx
 import React from 'react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/Components/ui/card';
+import { Button } from '@/Components/ui/button';
 import { useUser } from '@supabase/auth-helpers-react';
 import { launchPayU } from '@/utils/payuHash';
 
