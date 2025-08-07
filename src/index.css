@@ -1,15 +1,14 @@
 @tailwind base;
-@tailwind components;
+@tailwind Components;
 @tailwind utilities;
 
-
 .app-background {
-  background-image: url('/src/assets/Blue_Texture.png'); /* Ensure path is accurate */
+  background-image: url('/Blue_Texture.png');
+  /* ✅ updated from /src/Assets */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed; /* optional: keeps texture in place */
-  
+  background-attachment: fixed;
   color: white;
 }
 .feature-card {
