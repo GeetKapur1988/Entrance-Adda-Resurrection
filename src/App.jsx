@@ -6,12 +6,12 @@ import Features from './Pages/Features';
 import Dashboard from './Pages/Dashboard';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
-import ProtectedRoute from "./components/auth/ProtectedRoute";
+import ProtectedRoute from "./Components/auth/ProtectedRoute";
 import ThankYou from "./Pages/ThankYouPage";
 import Results from "./Pages/Results";
-import FinishTest from "@/components/student/Free_Test_Flow/FinishTest";
-import OCRUpload from "@/components/OCR/OCRUpload";
-import Assessments from './components/student/Assessments';
+import FinishTest from "@/Components/student/Free_Test_Flow/FinishTest";
+import OCRUpload from "@/Components/OCR/OCRUpload";
+import Assessments from './Components/student/Assessments';
 import ResultDetail from './Pages/ResultDetail';
 import { Toaster } from 'react-hot-toast';
 import Checkout from './Pages/Checkout'; // adjust path if Checkout.jsx is elsewhere
@@ -19,8 +19,8 @@ import PaymentSuccess from './Pages/PaymentSuccess';
 import PaymentFailed from './Pages/PaymentFailed';
 import RefundPolicy from "./Pages/RefundPolicy";
 import TermsConditions from "./Pages/TermsConditions";
-import LeadForm from './components/common/LeadForm';
-import FreeTestCTA from './components/student/FreeTestCTA';
+import LeadForm from './Components/common/LeadForm';
+import FreeTestCTA from './Components/student/FreeTestCTA';
 import PolicyPage from "./Pages/PolicyPage";
 
 function App() {
