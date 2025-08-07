@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { supabase } from "../utils/SupabaseClient";
-import Navbar from "@/components/common/Navbar";
-import CTA from "@/components/common/CTA";
-import HeroGrid from "@/components/common/HeroGrid";
-import PricingTable from "../components/pricing/PricingTable";
-import Footer from "@/components/common/Footer";
-import LeadForm from "@/components/common/LeadForm";
-import HomeFeatures from "../components/common/HomeFeatures";
+import Navbar from "@/Components/common/Navbar";
+import CTA from "@/Components/common/CTA";
+import HeroGrid from "@/Components/common/HeroGrid";
+import PricingTable from "../Components/pricing/PricingTable";
+import Footer from "@/Components/common/Footer";
+import LeadForm from "@/Components/common/LeadForm";
+import HomeFeatures from "../Components/common/HomeFeatures";
 
 export default function Homepage() {
   const location = useLocation();
