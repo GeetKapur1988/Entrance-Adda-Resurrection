@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "@/Components/common/Navbar";
 import Footer from "@/Components/common/Footer";
-import GeetImage from "../assets/Geet.jpg";
-import PuneetaImage from "../assets/Puneeta.jpg";
+import GeetImage from "../assets/geet.jpg";
+import PuneetaImage from "../assets/puneeta.jpg";
 
 const About = () => {
   return (
